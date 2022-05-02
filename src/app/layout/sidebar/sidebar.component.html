@@ -1,0 +1,42 @@
+<div class="d-flex flex-column flex-shrink-0 bg-light" style="width: 6.5rem;">
+    <a href="/" class="d-block p-3 link-dark text-decoration-none img-center"  title="Icon-only" data-bs-toggle="tooltip" data-bs-placement="right">
+      <img src="../../../assets/img/bootstrap-logo.svg" width="42" alt="">
+      <span class="visually-hidden">Icon-only</span>
+    </a>
+    <ul class="nav nav-pills nav-flush flex-column mb-auto text-center col-white">
+      <li class="nav-item">
+        <a  [routerLinkActive]="['active']" [routerLink]="['home']"  class="nav-link py-3" aria-current="page" title="Home" data-bs-toggle="tooltip" data-bs-placement="right">
+          <!-- <svg class="bi" width="24" height="24" role="img" aria-label="Home"><use xlink:href="#home"/></svg> -->
+          <img src="../../../assets/img/dashboard.png" width="22" alt="">
+        </a>
+      </li>
+      <li>
+        <a [routerLinkActive]="['active']"  class="nav-link py-3"  [routerLink]="['gig']" title="Dashboard" data-bs-toggle="tooltip" data-bs-placement="right">
+            <img src="../../../assets/img/gigs.png" width="22" alt="">
+        </a>
+      </li>
+      <li>
+        <a [routerLinkActive]="['active']" [routerLink]="['about']" class="nav-link py-3" title="Orders" data-bs-toggle="tooltip" data-bs-placement="right">
+            <img src="../../../assets/img/training.png" width="22" alt="">
+        </a>
+      </li>
+      <li>
+        <a [routerLinkActive]="['active']"  href="#" class="nav-link py-3" title="Products" data-bs-toggle="tooltip" data-bs-placement="right">
+            <img src="../../../assets/img/gigBudget.png" width="32" alt="">
+        </a>
+      </li>
+      <li>
+        <a [routerLinkActive]="['active']"  href="#" class="nav-link py-3" title="Customers" data-bs-toggle="tooltip" data-bs-placement="right">
+            <img src="../../../assets/img/user.png" width="22" alt="">
+        </a>
+      </li>
+    </ul>
+    
+  </div>
+
+<!-- <mat-toolbar color="primary">Menu</mat-toolbar>
+<mat-nav-list>
+  <a mat-list-item routerLink="/" routerLinkActive="active">Home</a>
+  <a mat-list-item routerLink="/about" routerLinkActive="active">About</a>
+  <a mat-list-item routerLink="/contact" routerLinkActive="active">Contact</a>
+</mat-nav-list> -->

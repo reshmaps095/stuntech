@@ -1,0 +1,17 @@
+.bodycolor{
+    background-color: #f6f7f9;
+}
+.example-container {
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid rgba(0, 0, 0, 0.5); */
+  }
+  
+  .example-sidenav-content {
+    height: 100%;
+  }
+  
+  .example-sidenav {
+    padding: 0px 0px 0px 1px;
+    background-color: #ffffff;
+  }

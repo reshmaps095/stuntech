@@ -1,0 +1,27 @@
+<nav class="navbar p-3 navbar-light bg-light col-white">
+    <div class="container-fluid">
+        <!-- <a class="navbar-brand">Navbar</a> -->
+        <img src="../../../assets/img/menu.png" width="28" alt="" (click)="drower.toggle()">
+        <div class="d-flex pe-3">
+            <div class="nav-image">
+                <img src="../../../assets/img/bell.png" class="bell" width="25" alt="">
+                <img src="../../../assets/img/profile.png" class="profile" width="35" alt="">
+            </div>
+
+
+            <div class="dropdown">
+                <a class="btn text-decoration-none dropdown-toggle text-center" type="button" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Santhosh &nbsp;SR
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="/profile">Profile</a></li>
+                    <li><a class="dropdown-item" href="/logout">Logout</a></li>
+                    
+                </ul>
+            </div>
+            <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+            <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+        </div>
+    </div>
+</nav>

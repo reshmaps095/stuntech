@@ -1,0 +1,41 @@
+
+{
+  "datas":[
+    {
+    "GigName": "Cheiken Test",
+    "RequiredDate": "06/04/2021",
+    "TotalBudget":1500,
+    "secure":100,
+    "status":"open",
+    "TotalRespurces":{
+      "required" : 1,
+      "Hired": 1 ,
+      "Applicants" : 1
+    }
+  },
+  {
+    "GigName": "Chekout Test",
+    "RequiredDate": "06/04/2022",
+    "TotalBudget":1500,
+    "secure":50,
+    "status":"completed",
+    "TotalRespurces":{
+      "required" : 1,
+      "Hired": 1 ,
+      "Applicants" : 1
+    }
+  },
+  {
+    "GigName": "Event Manager",
+    "RequiredDate": "09/04/2021",
+    "TotalBudget":1500,
+    "secure":75,
+    "status":"cancelled",
+    "TotalRespurces":{
+      "required" : 1,
+      "Hired": 1 ,
+      "Applicants" : 1
+    }
+  }
+]
+}

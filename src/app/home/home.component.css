@@ -1,0 +1,36 @@
+.status{
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    padding: 0%;
+    margin: 0%;
+}
+.card{
+  padding: 10px
+}
+.status li{
+    position: relative;
+    padding: 10px;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+}
+
+.status li.active{
+    border-bottom: 2px solid #f3bc7b !important;
+}
+
+.line-hght{
+  line-height: 8px;
+}
+.img-width{
+  width: 60%;
+}
+::ng-deep .mat-progress-bar-fill::after {
+  background-color: #216321;
+}
+.centers{
+  display: flex;
+    vertical-align: middle;
+    align-items: center;
+}

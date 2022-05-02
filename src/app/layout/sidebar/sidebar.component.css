@@ -1,0 +1,16 @@
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    background-color: #cdd1db !important;
+    color: #000;
+}
+.nav-pills .nav-link {
+    background: none;
+    border: 0;
+    border-radius: 0px !important;
+}
+.nav-link.active{
+    border-right: 5px solid #485577 !important;
+}
+.img-center{
+    margin: 0 auto;
+}
